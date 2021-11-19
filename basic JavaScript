@@ -1,0 +1,44 @@
+// comments are indicated using two forward slashes
+
+/* Multi-line comments
+use slashes and astericks */
+
+// print using console.log()
+console.log('Hello world!')
+// variables are declared using let or const 
+// const vars can't be re-assigned
+const name = "Helen"
+console.log(name)
+// const not able to change like this name = 'helly'
+
+
+// let vars can be re-assigned
+let age=23
+console.log(age)
+age = 29
+console.log(age)
+
+// Let's make a rocket!
+let i = 10
+while (i >= 0){
+  console.log(i)
+
+  i--
+}
+//emoji window , +, .
+console.log('Blast off🎈!')
+
+// Turn our rocket into a function so we can call it over and over
+//function
+const rocket = () => {
+  let i = 10
+  while (i >= 0){
+    console.log(i)
+
+    i--
+  }
+//emoji window , +, .
+console.log('Blast off🎈!')
+}
+//invoke aks call function
+rocket()
